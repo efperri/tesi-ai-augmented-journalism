@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Tesi di dottorato: IA, augmented journalism e linguistica computazionale"
+message: "Se usi questa repository, cita la tesi o la repository secondo i dati bibliografici aggiornati."
+type: dataset
+authors:
+  - family-names: "Perri"
+    given-names: "Emanuele"
+repository-code: "https://github.com/efperri/tesi-ai-augmented-journalism"
+date-released: "2026-08-26"
+license: MIT
