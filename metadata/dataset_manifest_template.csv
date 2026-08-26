@@ -1,0 +1,7 @@
+dataset_id,subset,path,description,document_count,language,date_range_start,date_range_end,version,notes
+original_articles,original,data/original_articles/,Articoli giornalistici originali,,,,,,,
+original_factsheets,derived,data/factsheets/original/,Fact-sheet JSON dagli articoli originali,,,,,,,
+generated_from_original,generated,data/generated_articles/original_factsheets/,Articoli generati dai fact-sheet originali,,,,,,,
+pre2022_articles,original,data/pre_2022/original_articles/,Articoli pre-2022,,,,,,,
+pre2022_factsheets,derived,data/pre_2022/factsheets/,Fact-sheet JSON dagli articoli pre-2022,,,,,,,
+generated_from_pre2022,generated,data/pre_2022/generated_articles/,Articoli generati dai fact-sheet pre-2022,,,,,,,
