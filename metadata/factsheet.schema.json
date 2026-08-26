@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/efperri/tesi-ai-augmented-journalism/metadata/factsheet.schema.json",
+  "title": "Journalistic article fact-sheet",
+  "type": "object",
+  "required": [
+    "source_id",
+    "title",
+    "topic",
+    "summary",
+    "key_facts",
+    "actors",
+    "locations",
+    "dates",
+    "claims",
+    "evidence",
+    "uncertainties",
+    "ethical_notes",
+    "generation_constraints"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "source_id": {"type": ["string", "null"]},
+    "title": {"type": ["string", "null"]},
+    "publication_date": {"type": ["string", "null"], "description": "Prefer ISO 8601 when possible."},
+    "outlet": {"type": ["string", "null"]},
+    "author": {"type": ["string", "null"]},
+    "topic": {"type": ["string", "null"]},
+    "summary": {"type": ["string", "null"]},
+    "key_facts": {"type": "array", "items": {"type": "string"}},
+    "actors": {"type": "array", "items": {"type": "string"}},
+    "locations": {"type": "array", "items": {"type": "string"}},
+    "dates": {"type": "array", "items": {"type": "string"}},
+    "claims": {"type": "array", "items": {"type": "string"}},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "uncertainties": {"type": "array", "items": {"type": "string"}},
+    "ethical_notes": {"type": "array", "items": {"type": "string"}},
+    "generation_constraints": {"type": ["string", "array", "null"], "items": {"type": "string"}}
+  }
+}
